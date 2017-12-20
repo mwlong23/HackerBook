@@ -14,3 +14,49 @@
  *= require_self
  */
 @import "bootstrap";
+
+#signup-form, #registration-edit, #signin-form {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.navbar {
+  background-color:#3f87a6;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: #57737F;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  background-color: #57737F;
+}
+.three {
+  grid-column: 1;
+  grid-row: 3 / 5;
+  background-color: #57737F;
+}
+.four {
+  grid-column: 2 / 4;
+  grid-row: 2 / 5;
+  background-color: #57737F;
+}
+
+// navbar styles
+
+.navbar a {
+  font-family: 'Zilla Slab', serif;
+  font-weight: bold;
+  color:black !important;
+}
