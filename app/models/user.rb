@@ -9,4 +9,7 @@ class User < ApplicationRecord
                                :thumb => "1--X100#"},
                                :default_url => "/images/:style/missing.png"
   validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\z/
+
+  acts_as_follower
+  acts_as_followable
 end
