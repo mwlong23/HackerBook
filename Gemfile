@@ -37,7 +37,8 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'acts_as_commentable'
-gem 'acts_as_follower', github: 'tcocca/acts_as_follower', branch: 'master'
+gem "acts_as_follower", github: "tcocca/acts_as_follower"
+gem 'public_activity'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
